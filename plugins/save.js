@@ -3,7 +3,7 @@ let handler = async (m, { conn, text }) => {
   let who
   if (m.isGroup) who = m.mentionedJid[0]
   else who = m.chat
-  if (!who) throw '*[❗] Etiqueta a una persona*\n\n*Uso correcto de comando:*\n*#save @tag Shadow - Bot*'
+  if (!who) throw '*[❗] Etiqueta a una persona*\n\n*Uso correcto de comando:*\n*#save @tag 𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽*'
   txt = text.replace('@' + who.split`@`[0], '').trimStart()
   return conn.sendContact(m.chat, who, txt || conn.getName(who), m)
 }

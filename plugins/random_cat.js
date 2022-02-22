@@ -6,7 +6,7 @@ let handler  = async (m, { conn, text }) => {
      let res = await fetch('https://cataas.com/cat')
      let img = await res.buffer()
      let caption = `
-©The Shadow Brokers - Bot
+©𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽
 `.trim()
     conn.sendFile(m.chat, img, 'cat.jpg', caption, m)
    } catch (e) {

@@ -15,15 +15,14 @@ let username = conn.getName(who)
 //let vn = './media/mariana.mp3'
 let menu =`
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭*
+║═ *ℕ𝕖𝕫𝕦𝕜𝕠𝔹𝕠𝕥*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${username}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: Bruno Sobrino* 
-║➤ *Numero del creador:* *wa.me/17722386341 (No Bot)*
-║➤ *PayPal:* *https://www.paypal.me/TheShadowBrokers133*
-║➤ *Numero del Bot oficial:* *wa.me/5219991402134*
-║➤ *Numero del Sub Bot oficial:* *wa.me/5219992095479*
+║➤ *Creador del Bot: Orumaito* 
+║➤ *Numero del creador:* *wa.me/525518064309 (No Bot)*
+║➤ *PayPal:* *https://www.paypal.me/frnzak*
+║➤ *Numero del Bot oficial:* *wa.me/525582305685*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ┏━━━━━━━━━━━━━┓
@@ -123,8 +122,6 @@ let menu =`
 ┣ ඬ⃟📥 _${usedPrefix}xnxx *link de xnxx*_
 ┣ ඬ⃟📥 _${usedPrefix}xnxxsearch *texto*_
 ┣ ඬ⃟📥 _${usedPrefix}ssweb *link*_
-┣ ඬ⃟📥 _${usedPrefix}playstore *aplicación*_
-┣ ඬ⃟📥 _${usedPrefix}igstory *username*_
 ┣ ඬ⃟📥 _${usedPrefix}igstalk *username*_
 ┣ ඬ⃟📥 _${usedPrefix}animeinfo *nombre del anime*_
 ┗━━━━━━━━━━━━━┛
@@ -168,13 +165,11 @@ let menu =`
 ┣ ඬ⃟🧧 _${usedPrefix}trash_
 ┣ ඬ⃟🧧 _${usedPrefix}rainbow_
 ┣ ඬ⃟🧧 _${usedPrefix}circle_
-┣ ඬ⃟🧧 _${usedPrefix}trigger_
 ┣ ඬ⃟🧧 _${usedPrefix}stickermaker_
 ┣ ඬ⃟🧧 _${usedPrefix}attp *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}style *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}attp2 *texto*_
 ┣ ඬ⃟🧧 _${usedPrefix}stickerfilter_
-┣ ඬ⃟🧧 _${usedPrefix}trigger *@tag*_
 ┣ ඬ⃟🧧 _${usedPrefix}mp3 *responde a un video*_
 ┣ ඬ⃟🧧 _${usedPrefix}img *responde a un sticker*_
 ┣ ඬ⃟🧧 _${usedPrefix}blur *responde a una imagen*_
@@ -298,8 +293,7 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}boost_
 ┣ ඬ⃟👑 _${usedPrefix}restart_
 ┣ ඬ⃟👑 _${usedPrefix}banlist_
-┣ ඬ⃟👑 _${usedPrefix}binario1_
-┣ ඬ⃟👑 _${usedPrefix}binario2_
+┣ ඬ⃟👑 _${usedPrefix}virtext1_
 ┣ ඬ⃟👑 _${usedPrefix}banchat2_
 ┣ ඬ⃟👑 _${usedPrefix}actualizar_
 ┣ ඬ⃟👑 _${usedPrefix}CajaFuerte_
@@ -320,7 +314,7 @@ let menu =`
 ┣ ඬ⃟👑 _${usedPrefix}disable *autoread*_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©The Shadow Brokers - Bot', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '©𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽', '𝙼𝙴𝙽𝚄 𝚂𝙸𝙼𝙿𝙻𝙴', `#menusimple`, '𝙼𝙴𝙽𝚄 𝙰𝚄𝙳𝙸𝙾𝚂', `#menuaudios`, '𝙶𝚁𝚄𝙿𝙾𝚂 𝙾𝙵𝙸𝙲𝙸𝙰𝙻𝙴𝚂', `#grupos`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
