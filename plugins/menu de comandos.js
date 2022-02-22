@@ -176,7 +176,8 @@ let menu =`
 ┣ ඬ⃟🧧 _${usedPrefix}swm *link de imagen de google*_
 ┣ ඬ⃟🧧 _${usedPrefix}gif *responde a un sticker/video*_
 ┣ ඬ⃟🧧 _${usedPrefix}tovideo *responde a una nota de voz*_
-┗━━━━━━━━━━━━━┛
+ ┣ ඬ⃟🧧 _${usedPrefix}tts *crea un audio*_
+ ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<RANDOM|EXTRAS/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
