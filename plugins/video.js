@@ -1,5 +1,5 @@
 let handler = async(m, { conn, usedPrefix, command }) => {
-await conn.sendButtonVid(m.chat, pickRandom(asupan), '🥵🔥', '©', 'SIGUIENTE', `${usedPrefix + command}`, m, false)
+await conn.sendButtonVid(m.chat, pickRandom(asupan), '🥵🔥', '©𝕆𝕣𝕦𝕞𝕒𝕚𝕥𝕠-𝓝𝓮𝔃𝓾𝓴𝓸𝓑𝓸𝓽', 'SIGUIENTE', `${usedPrefix + command}`, m, false)
 }
 handler.command = /^video$/i
 module.exports = handler
